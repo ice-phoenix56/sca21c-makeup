@@ -1,0 +1,11 @@
+Answer_6
+Git Log - It shows a list of all committed commits sorted by date added (most recent on top),
+The git log command has a useful -p flag that immediately prints the diff for each commit.
+Git Show - Each commit has an identifier (say "hash"), a unique set of characters. 
+Using a hash, you can see all the changes made within a single commit.
+Git commit hashes are very long and can be awkward to use. Therefore, the Git developers added the ability to specify only part of the hash. 
+It is enough to take the first 8 characters.
+Git Blame -  For this,the command git blame <path to the file> is suitable. This command outputs the file and next to each line shows who changed it and in what commit.
+Git Grep - The git grep command searches for a match for the specified string in all project files. This is a very handy command for quick analysis from the terminal. It is more convenient than regular grep,
+because it knows about ignoring and does not look at the .git directory, but it also knows how to search through history.
+GitHub - In simple situations,you can analyze the project directly on GitHub. It allows you to view the commit history, changes in a particular commit, and more.
